@@ -1,0 +1,29 @@
+{
+  "name": "movieql-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://rednjzz@github.com/rednjzz/movieql-client.git",
+  "author": "rednjzz <rednjzz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-boost": "^0.4.7",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
+    "react": "^16.12.0",
+    "react-apollo": "^3.1.3",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
